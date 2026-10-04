@@ -1,0 +1,22 @@
+SESSION 02 – EX01
+Phần 1: Phân tích
+Nam đang lưu bài tập ở:
+C:\Windows\System32\nhap mon CNTT\session 02\bai1.py
+Theo em, cách lưu này chưa hợp lý ở một số điểm:
+Thứ nhất, Nam lưu bài tập ở ổ C. Ổ C chủ yếu dùng cho Windows và các phần mềm. Nếu máy bị lỗi và phải cài lại Windows, format ổ C thì file bai1.py cũng có thể bị mất.
+Thứ hai, Nam lưu bài tập vào Windows\System32. Đây là thư mục chứa các file quan trọng của Windows nên không nên dùng để lưu bài tập cá nhân. Tốt nhất là tạo một thư mục riêng để tránh làm ảnh hưởng đến các file hệ thống.
+Thứ ba, thư mục nhap mon CNTT có dấu cách. Khi nhập đường dẫn này trong Terminal, dấu cách có thể làm câu lệnh bị tách thành nhiều phần và gây lỗi. Ví dụ lệnh cd nhap mon CNTT có thể không chạy đúng như mong muốn.
+Thứ tư, cách sắp xếp thư mục của Nam chưa rõ ràng. Bài tập nên được chia theo môn học và từng session để sau này dễ tìm lại.
+Phần 2: Sửa lỗi
+Em sẽ chuyển bài tập sang ổ D và sắp xếp lại như sau:
+D:\hoc_tap/nhap_mon_CNTT/session_02/bai1.py
+Trong đó:
+- D:\ là nơi lưu dữ liệu.
+- hoc_tap dùng để chứa tài liệu học tập.
+- nhap_mon_CNTT là thư mục của môn học.
+- session_02 là thư mục của buổi học.
+- bai1.py là bài tập Python.
+Em đặt tên thư mục bằng dấu _ thay vì khoảng trắng để dễ sử dụng khi làm việc trên Terminal.
+=>Kết luận
+Theo em, cách lưu bài tập của Nam ban đầu không an toàn vì để file trong thư mục hệ thống và ổ C. Nên chuyển bài tập sang ổ D, tạo thư mục riêng và sắp xếp theo từng môn, từng session. Như vậy sẽ dễ quản lý và hạn chế mất bài khi cài lại Windows.
+
